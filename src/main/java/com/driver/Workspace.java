@@ -10,8 +10,8 @@ public class Workspace extends Gmail{
 
     private ArrayList<Meeting> calendar; // Stores all the meetings
 
-    public Workspace(String emailId, int inboxCapacity) {
-        super(emailId, Integer.MAX_VALUE);
+    public Workspace(String emailId) {
+        super(emailId,Integer.MAX_VALUE);
         this.calendar = new ArrayList<>();
     }
 
